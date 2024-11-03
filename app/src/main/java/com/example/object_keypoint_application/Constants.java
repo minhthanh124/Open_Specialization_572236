@@ -11,7 +11,7 @@ public class Constants {
     public static final String[] REQUIRED_PERMISSIONS = new String[]{android.Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE};
     public static final String MODEL_FILENAME = "model.onnx";
     public static final String HOST_NAME = "127.0.0.1";
-    public static final int PORT = 5000;
+    public static final int PORT = 7000;
     public static final String jsonString = "{\n" +
             "\"info\": {\n" +
             "\"description\": \"COCO 2017 Dataset\",\n" +
