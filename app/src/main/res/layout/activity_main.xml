@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Btn_CollectData"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="230dp"
+        android:text="Collect Data"
+        android:textColorLink="#871D1D"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+    <Button
+        android:id="@+id/Btn_Train"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:textSize="25dp"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="340dp"
+        android:text="Train Model"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <Button
+        android:id="@+id/Btn_Validate"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="450dp"
+        android:text="Evaluate Model"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+</RelativeLayout>

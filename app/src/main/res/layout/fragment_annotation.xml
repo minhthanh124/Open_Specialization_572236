@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnnotationFragment">
+
+
+    <com.example.object_keypoint_application.AnnotationOverlayView
+        android:id="@+id/keypointOverlayView"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/addKeypoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="14dp"
+        android:layout_toLeftOf="@+id/addBBox"
+        android:text="Save keypoints" />
+
+    <Button
+        android:id="@+id/addSegmentation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginBottom="14dp"
+        android:layout_toRightOf="@+id/addBBox"
+        android:text="Save Segment" />
+
+    <Button
+        android:id="@+id/addBBox"
+        android:layout_width="134dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Save BBox" />
+
+
+    <Button
+        android:id="@+id/Btn_Update"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        android:text="Update JSON" />
+
+    <Button
+        android:id="@+id/Btn_TakeMorePhoto"
+        android:layout_width="207dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Take more photos" />
+
+</RelativeLayout>
